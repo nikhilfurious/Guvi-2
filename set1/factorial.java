@@ -6,9 +6,17 @@ class Main
     int i,fact=1;  
   Scanner sc = new Scanner(System.in);
   int number = sc.nextInt();  
-  for(i=1;i<=number;i++){    
+  if(number>0)
+  {
+  for(i=1;i<=number;i++)
+  {    
       fact=fact*i;    
   }    
-  System.out.println(fact);  
-  }
+  System.out.println(fact); 
+ }
+ else
+ {
+  System.out.println(fact);
+}
+ }
 }
