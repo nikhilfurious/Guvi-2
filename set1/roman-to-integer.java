@@ -69,7 +69,6 @@ public class Main
         Main ob = new Main();
         Scanner sc  = new Scanner(System.in);
 		String str = sc.nextLine();
-		System.out.println("Integer form of Roman Numeral" + 
-						" is " +ob.romanToDecimal(str)); 
+		System.out.println(ob.romanToDecimal(str)); 
 	} 
 } 
